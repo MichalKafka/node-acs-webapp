@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'MS Kafkami' });
+  res.render('index', { title: 'tohle je uplne novy test CI/CD' });
 });
 
 module.exports = router;
